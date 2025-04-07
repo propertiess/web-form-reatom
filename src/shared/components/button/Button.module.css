@@ -1,0 +1,23 @@
+.wrapper {
+  @apply bg-[#333] p-2 shadow rounded-lg;
+}
+.primary {
+  @apply bg-[var(--primary-bg-color)]
+  focus:shadow focus:shadow-[var(--secondary-bg-color)]
+  focus:border focus:border-white
+  hover:shadow hover:shadow-[var(--primary-bg-color)];
+}
+
+.secondary {
+  @apply bg-[var(--secondary-bg-color)]
+  focus:shadow focus:shadow-[var(--secondary-bg-color)]
+  focus:border focus:border-white
+  focus:border-[var(--primary-bg-color)]
+  hover:shadow hover:shadow-[var(--secondary-bg-color)];
+}
+
+.primary,
+.secondary {
+  @apply opacity-90 hover:opacity-100 active:opacity-100;
+  transition: opacity 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+}

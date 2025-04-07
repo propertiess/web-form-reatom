@@ -1,0 +1,20 @@
+.wrapper {
+  @apply w-32 sm:w-80;
+}
+
+.item {
+  @apply cursor-pointer px-3 py-1;
+}
+
+.folder {
+  @apply flex gap-1 items-center;
+}
+
+.active {
+  @apply bg-[var(--secondary-bg-color)];
+}
+
+.unactive {
+  @apply hover:bg-[#2222334f];
+  transition: background-color 0.3s ease;
+}

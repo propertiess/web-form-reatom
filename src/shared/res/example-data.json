@@ -1,0 +1,109 @@
+{
+  "id": 0,
+  "name": "",
+  "children": [
+    {
+      "id": 1,
+      "name": "app",
+      "children": [
+        {
+          "id": 2,
+          "name": "index.ts",
+          "properties": {
+            "name": "index.ts",
+            "size": "50 kb",
+            "createDate": "26.01.2023 11:50",
+            "type": "файл"
+          },
+          "children": []
+        },
+        {
+          "id": 3,
+          "name": "styles.scss",
+          "properties": {
+            "name": "styles.scss",
+            "size": "68kb",
+            "createDate": "26.01.2023 18:50",
+            "type": "файл"
+          },
+          "children": []
+        }
+      ],
+      "properties": {
+        "name": "app",
+        "size": "100 mb",
+        "createDate": "26.01.2023 18:50",
+        "type": "папка"
+      }
+    },
+    {
+      "id": 4,
+      "name": "node_modules",
+      "children": [
+        {
+          "id": 5,
+          "name": "react-accessible-treeview",
+          "children": [
+            {
+              "id": 6,
+              "name": "bundle.js",
+              "properties": {
+                "name": "bundle.js",
+                "size": "100 mb",
+                "createDate": "26.01.2023 18:50",
+                "type": "файл"
+              },
+              "children": []
+            }
+          ],
+          "properties": {
+            "name": "react-accessible-treeview",
+            "size": "100 mb",
+            "createDate": "26.01.2023 18:50",
+            "type": "папка"
+          }
+        }
+      ],
+      "properties": {
+        "name": "node_modules",
+        "size": "50 mb",
+        "createDate": "26.01.2023 18:50",
+        "type": "файл"
+      }
+    },
+    {
+      "id": 7,
+      "name": ".npmignorere",
+      "properties": {
+        "name": ".npmignorere",
+        "size": "50 mb",
+        "createDate": "26.01.2023 18:50",
+        "type": "файл"
+      },
+      "children": []
+    },
+    {
+      "id": 8,
+      "name": "package.json",
+      "properties": {
+        "name": "package.json",
+        "size": "50 mb",
+        "createDate": "26.01.2023 18:50",
+        "type": "файл"
+      },
+      "children": []
+    },
+    {
+      "id": 9,
+      "name": "webpack.config.js",
+      "properties": {
+        "name": "webpack.config.js",
+        "size": "50 mb",
+        "createDate": "26.01.2023 18:50",
+        "type": "файл"
+      },
+      "children": []
+    }
+  ],
+  "properties": {}
+}

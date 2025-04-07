@@ -1,0 +1,7 @@
+.wrapper {
+  @apply flex flex-col w-full;
+}
+
+.list_wrapper {
+  @apply w-full h-14 relative overflow-x-auto;
+}

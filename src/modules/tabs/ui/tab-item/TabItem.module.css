@@ -1,0 +1,25 @@
+.li {
+  @apply bg-[#2222334f] flex items-center gap-3 cursor-pointer px-3 text-lg;
+}
+
+.active {
+  @apply bg-[var(--secondary-bg-color)];
+}
+
+.unactive {
+  @apply hover:bg-[var(--secondary-bg-color)];
+  transition: background-color 0.3s ease;
+}
+
+.icon {
+  @apply w-7 my-[1px] cursor-pointer
+  hover:bg-white hover:bg-opacity-10;
+  transition: background-color 0.3s ease;
+}
+
+.truncate {
+  width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
